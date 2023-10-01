@@ -1,6 +1,4 @@
-# Sync_Internship
-<<<<<<< HEAD
-This is my internship work with syncinterns
-=======
-this is web dev internship repo for syncinterns
->>>>>>> f31b10c (initial  comit)
+#SyncInterns >>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Task 1 of SyncInterns Internship
+Product Landing page using HTML, CSS AND JS
+
