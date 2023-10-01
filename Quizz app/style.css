@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 300;
+}
+.container{
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color:hsl(236, 10%, 69%);
+
+
+}
+.heading{  
+    font-size: 8rem;
+    color: #000000d6;
+    text-shadow: 1px 1px 1px #919191,
+    1px 2px 1px #919191,
+    1px 3px 1px #919191,
+    1px 4px 1px #919191,
+    1px 5px 1px #919191,
+    1px 6px 1px #919191,
+    1px 7px 1px #919191,
+    1px 8px 1px #919191,
+    1px 9px 1px #919191,
+    1px 10px 1px #919191,
+1px 18px 6px rgba(16,16,16,0.4),
+1px 22px 10px rgba(16,16,16,0.2),
+1px 25px 35px rgba(16,16,16,0.2),
+1px 30px 60px rgba(16,16,16,0.4);}
+.inner-container{
+    width: 40vw;
+    background-color: #ffffff;
+    padding: 3rem 8rem;
+    border-radius: 3rem;
+    box-shadow: 0px 0px 20px #000;
+   
+}
+.inner-container h1{
+    font-size:26px;
+    font-weight:600;
+    margin: 4rem -38px 4rem -38px;
+    background-color: rgb(248, 232, 167);
+    
+}
+.inner-container li{
+    font-size: 26px;
+    list-style: none;
+    margin-top: 10px;
+}
+
+input[type="radio"] {
+    transform: scale(1.5); /* Increase the size of the radio button */
+  }
+#submit{
+    cursor: pointer;
+    padding: 1rem 3rem;
+    outline: none;
+    font-size: 20px;
+    display: block;
+    border-radius: 15px;
+    margin: auto;
+    color: #fff;
+    border-style: none;
+    background-color:#74b9ff;
+    margin-top: 30px;
+}
+.btn{
+    cursor: pointer;
+    padding: 1rem 3rem;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 15px;
+    display: block;
+    border-style: none;
+    margin: auto;
+    color: #fff;
+    background-color:#5516e9;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.btn:hover{
+    background-color: #9876e9;
+}
+#submit:hover{
+    background-color: #0984e3;
+}
+#showscore{
+    background-color: rgb(151, 158, 162);
+    margin:3rem;
+    padding: 3rem 4rem;
+    border-radius: 10px;
+    box-shadow: 0px 1rem 1rem -0.7rem #0005;
+}
+#showscore h3{
+    text-align: center;
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+.score{
+    display: none;
+}
