@@ -1,0 +1,113 @@
+<!-- <style>
+        #logo {
+            background-color: #000;
+            font-size: 6rem;
+            display: flex;
+            color: azure;
+            column-gap: 0;
+            text-shadow: 0px 0px 5px #797979, 0px -3px 62px #444242,0px 0px 0px #797979, 0px -3px 62px #444242;
+            font-weight: bold;
+            justify-content: center;
+        }
+        #i {
+            display: flex;
+            flex-direction: column;
+            height: 100px;
+            align-items: center;
+        }
+        #i span {
+            margin-top: 25px;
+            width: 18px;
+            box-shadow: 0px 0px 0px #000;
+            border-top: 42px solid azure;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+        }
+           <span></span>
+        <span>e</span>
+        <span>a</span>
+        <span>r</span>
+        <span>n</span>
+        <span id="i">
+            <span></span>
+            <i class="fa fa-gear fa-spin" style="font-size:3.2rem"></i>
+        </span>
+        <span>t</span>
+    </span>
+
+       
+    </style> -->
+
+
+
+    <!-- .courses{
+        display: flex;
+        justify-content: center;
+        margin: 10px 0px;
+        position: relative;
+}
+
+.courses i{
+    bottom: 38%;
+    font-size: 114px;
+}
+.courses i:first-child{
+    position: absolute;
+    left: 30px;
+
+}
+.courses i:last-child{
+    position: absolute;
+   right: 30px;
+} 
+#course-container{
+    display: flex;
+    overflow-x: hidden;
+    width: 87vw;
+    padding: 54px 0px;
+    gap: 11rem;
+}
+.course-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: -1px 3px 11px #cfcfcf, 0px 21px 11px #858383, 0px 21px 1px #303030, 0px 28px 11px #000;
+    padding: 16px;
+    gap: 14px;
+    background: linear-gradient(175deg,#284121, #0000000a);
+    border-radius: 50px;
+    position: relative;
+
+}
+.courses img{
+    height: 28vh;
+    width: 20vw;
+    border-radius:50px;
+}
+.courses h3{
+    font-size: 27px;
+    font-weight: bolder;
+    width: 14vw;
+    text-align: center;
+}
+.courses p{
+    width: 15rem;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 12px;
+}
+.courses span{
+    font-size: 28px;
+    font-weight: bold;
+} -->
+
+
+
+
+
+
+
+
+
+
+

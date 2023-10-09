@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn!t</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Cabin+Sketch:wght@400;700&family=Carter+One&family=Londrina+Sketch&family=Monoton&family=Rampart+One&display=swap"
+        rel="stylesheet">
+    <style>
+        .aheader {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 54vh;
+        }
+
+        .aheader h1 {
+            font-size: 3rem;
+            color: #fff;
+            font-family: 'Cabin sketch', 'Cursive';
+        }
+
+        .aheader h2 {
+            font-size: 11rem;
+            color: #fff;
+            font-weight: 600;
+            font-family: 'Cabin sketch', 'Cursive';
+        }
+
+        .courses {
+
+        }
+
+        #course-container {
+            display: grid;
+
+        }
+
+        .course-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: -1px 3px 11px #cfcfcf, 0px 21px 11px #858383, 0px 21px 1px #303030, 0px 28px 11px #000;
+            padding: 16px;
+            gap: 14px;
+            background: linear-gradient(175deg, #284121, #0000000a);
+            border-radius: 50px;
+            position: relative;
+
+        }
+
+        .courses img {
+            height: 28vh;
+            width: 20vw;
+            border-radius: 50px;
+        }
+
+        .courses h3 {
+            font-size: 27px;
+            font-weight: bolder;
+            width: 14vw;
+            text-align: center;
+        }
+
+        .courses p {
+            width: 15rem;
+            text-align: center;
+            font-size: 18px;
+            margin-top: 12px;
+        }
+
+        .courses span {
+            font-size: 28px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="home" id="home">
+        <div class="container">
+            <div class="navbar">
+                <img id="logo" src="img/logo.png" alt="" srcset="">
+                <ul class="list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+                <button class="btn" id="login">Login</button>
+            </div>
+            <header class="aheader">
+                <h1>Hey Let's Learn SomeThing</h1>
+                <h2>Courses </h2>
+            </header>
+        </div>
+        <div class="courses">
+            <div id="course-container">
+            </div>
+        </div>
+        <div class="course"></div>
+        <h1 class="topic">Our Partners</h1>
+        <div class="patner">
+            <img src="img/samsung.svg" alt="" class="p1">
+            <img src="img/att.svg" alt="" class="p1">
+            <img src="img/volkswagen.svg" alt="" class="p1">
+            <img src="img/cisco.svg" alt="" class="p1">
+            <img src="img/procter_gamble.svg" alt="" class="p1">
+        </div>
+
+        <!-- footer -->
+        <div class="footer">
+            <div class="sec2">
+                <div class="sec">
+                    <li>Home</li>
+                    <li>lorem</li>
+                    <li>lorem</li>
+                    <li>lorem</li>
+                </div>
+                <div class="sec">
+                    <li>Contact</li>
+                    <li>lorem</li>
+                    <li>lorem</li>
+                    <li>lorem</li>
+                </div>
+                <div class="sec">
+                    <li>Courses</li>
+                    <li>lorem</li>
+                    <li>lorem</li>
+                    <li>lorem</li>
+                </div>
+            </div>
+            <div class="socials">
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-github"></i>
+                <i class="fa fa-twitter"></i>
+            </div>
+            <h2>All Right Reserved &#169; LearnIt</h2>
+        </div>
+    </div>
+    <script src="auth.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

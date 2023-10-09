@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn!t</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Cabin+Sketch:wght@400;700&family=Carter+One&family=Londrina+Sketch&family=Monoton&family=Rampart+One&display=swap"
+        rel="stylesheet">
+    <style>
+        .aheader {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 54vh;
+        }
+
+        .aheader h1 {
+            font-size: 3rem;
+            color: #fff;
+            font-family: 'Cabin sketch', 'Cursive';
+        }
+
+        .aheader h2 {
+            font-size: 12rem;
+            color: #fff;
+            font-family: 'Cabin sketch', 'Cursive';
+        }
+
+        .contact {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 33px;
+            margin-top: 76px;
+
+        }
+
+        .contact input {
+            height: 60px;
+            width: 40%;
+            text-align: center;
+            font-size: 20px;
+            border-radius: 15px;
+            border: 2px inset #e09d20;
+            background-color: #ece4e46c;
+        }
+
+        .contact input::placeholder {
+            text-align: center;
+            font-size: 15px;
+        }
+
+        .contact textarea {
+            height: 100px;
+            text-align: center;
+            width: 40%;
+            font-size: 20px;
+            border-radius: 15px;
+            border: 2px inset #e09d20;
+            background-color: #ece4e46c;
+        }
+
+        .contact textarea::placeholder {
+            text-align: center;
+            font-size: 15px;
+        }
+
+        .contact button {
+            height: 6vh;
+            width: 15vw;
+            font-size: 21px;
+            color: #fff;
+            background: tomato;
+            border-radius: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="home" id="home">
+        <div class="container">
+            <div class="navbar">
+                <img id="logo" src="img/logo.png" alt="" srcset="">
+                <ul class="list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+                <button class="btn" id="login">Login</button>
+            </div>
+            <header class="aheader">
+                <h1>Wanna Some Help </h1>
+                <h2>Contact Us </h2>
+            </header>
+        </div>
+        <form action="" class="contact">
+            <input type="text" name="Name" id="name" placeholder="Name">
+            <input type="text" name="Email" id="email" placeholder="E mail">
+            <input type="number" name="Phone number" placeholder="Phone number">
+            <textarea placeholder="Message" message" id="subject" cols="30" rows="10"></textarea>
+            <button>Send</button>
+
+        </form>
+        <h1 class="topic">Our Partners</h1>
+        <div class="patner">
+            <img src="img/samsung.svg" alt="" class="p1">
+            <img src="img/att.svg" alt="" class="p1">
+            <img src="img/volkswagen.svg" alt="" class="p1">
+            <img src="img/cisco.svg" alt="" class="p1">
+            <img src="img/procter_gamble.svg" alt="" class="p1">
+        </div>
+
+        <!-- footer -->
+        <div class="footer">
+            <div class="sec2">
+                <div class="sec">
+                    <li>Home</li>
+                    <li>lorem</li>
+                    <li>lorem</li>
+                    <li>lorem</li>
+                </div>
+                <div class="sec">
+                    <li>Contact</li>
+                    <li>lorem</li>
+                    <li>lorem</li>
+                    <li>lorem</li>
+                </div>
+                <div class="sec">
+                    <li>Courses</li>
+                    <li>lorem</li>
+                    <li>lorem</li>
+                    <li>lorem</li>
+                </div>
+            </div>
+            <div class="socials">
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-github"></i>
+                <i class="fa fa-twitter"></i>
+            </div>
+            <h2>All Right Reserved &#169; LearnIt</h2>
+        </div>
+    </div>
+    <script src="auth.js"></script>
+</body>
+
+</html>
